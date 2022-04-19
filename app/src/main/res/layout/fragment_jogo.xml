@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentJogo"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/jogador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="jogador 1 (X)"
+        android:textColor="@color/rosa"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/placarJogador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jogadorum"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/rosa"
+        android:padding="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/jogador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jogador 2 (O) "
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/azul"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/placarJogador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jogadordois"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/azul"
+
+        />
+
+    <TextView
+        android:id="@+id/velha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:text="Placar da velha "
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/placarVelha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="********** "
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:textSize="25dp"
+                android:id="@+id/bt00"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                />
+
+        <Button
+            android:textSize="25dp"
+            android:id="@+id/bt01"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:textSize="25dp"
+            android:id="@+id/bt02"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:textSize="25dp"
+                android:id="@+id/bt10"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:textSize="25dp"
+                android:id="@+id/bt11"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:textSize="25dp"
+                android:id="@+id/bt12"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:textSize="25dp"
+                android:id="@+id/bt20"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:textSize="25dp"
+                android:id="@+id/bt21"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/bt22"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
